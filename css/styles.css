@@ -28,3 +28,8 @@ h1{
     align-self: center;
     color: black;
 }
+
+section{
+    width: auto;
+    height: auto;
+}
