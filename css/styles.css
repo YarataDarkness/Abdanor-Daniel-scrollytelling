@@ -43,8 +43,9 @@ section{
 }
 
 #spritesheet{
-  width: 1897px;
-  height: 491px;
+    width: 50vw;
+    aspect-ratio: 1/1;
+  
   background-image: url(../img/img_personnages/bycycl.png);  
   background-size: auto 100%;
 
