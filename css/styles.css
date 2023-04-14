@@ -43,8 +43,8 @@ section{
 }
 
 #spritesheet{
-    background-size: 400% 100%;/* */
-    background-position: 0 0;/* */
+  background-size: 400% 100%;/* */
+  background-position: 0 0;/* */
   
 
   animation-name: walk;
