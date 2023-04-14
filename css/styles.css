@@ -37,5 +37,11 @@ h1{
 section{
     width: auto;
     height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#spritesheet{
+    background-image: "bycycl.png";
 }
 
