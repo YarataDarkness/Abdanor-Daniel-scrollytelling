@@ -49,7 +49,7 @@ section{
   background-size: auto 100%;
 
   animation-name: walk;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: steps(4);
 
