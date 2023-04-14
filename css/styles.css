@@ -55,7 +55,7 @@ section{
 
 }
 
-@keyframes velo1 {
+@keyframes walk {
     from { background-position: 0 0; }
     to { background-position: -1921px 0; } 
     /* Note: 19 images x 700px = 13300px */
