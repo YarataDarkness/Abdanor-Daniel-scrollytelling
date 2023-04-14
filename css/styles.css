@@ -6,6 +6,7 @@ body{
 
 main{
     margin: 0;
+    background-color: brown;
 }
 
 :root{
@@ -21,9 +22,8 @@ header{
 }
 
 h1{
-    position: absolute;
-    top: auto;
     
+    top: auto;
     width: inherit;
     height: inherit;
     color:black;
