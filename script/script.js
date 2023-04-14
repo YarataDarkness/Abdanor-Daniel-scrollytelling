@@ -1,6 +1,6 @@
 const iswindow = document.querySelector('window');
 const isbody = document.querySelector('body');
-const istime = 
+const istime = new seconds(0.1);
 
 
 iswindow.addEventListener('scroll' (), 

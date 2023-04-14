@@ -42,7 +42,8 @@ section{
 }
 
 #spritesheet{
-    
+    background-size: 400% 100%;/* */
+    background-position: 0 0;/* */
   
 
   animation-name: walk;
@@ -50,5 +51,9 @@ section{
   animation-iteration-count: infinite;
   animation-timing-function: steps(4);
 
+}
+
+body.iscrolling #spritesheet {
+    animation-play-state: running;
 }
 
