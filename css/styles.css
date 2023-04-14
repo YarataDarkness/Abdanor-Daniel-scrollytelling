@@ -43,7 +43,8 @@ section{
 }
 
 #spritesheet{
-  background-size: 1897px 491px;/* */
+  width: 1897px;
+  height: 491px;
   background-image: url(../img/img_personnages/bycycl.png);  
   background-size: auto 100%;
 
