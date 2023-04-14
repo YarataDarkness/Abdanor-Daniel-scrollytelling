@@ -23,7 +23,7 @@ header{
 h1{
     position: absolute;
     top: auto;
-    object-position: 50% 50%;
+    
     width: inherit;
     height: inherit;
     color:black;
