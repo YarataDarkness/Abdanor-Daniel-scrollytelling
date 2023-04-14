@@ -43,16 +43,22 @@ section{
 }
 
 #spritesheet{
-  background-size: 400% 100%;/* */
-  background-position: 0 0;/* */
-  
+  background-size: 1897px 491px;/* */
+  background-image: url(../img/img_personnages/bycycl.png);  
+  background-size: auto 100%;
 
   animation-name: walk;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: steps(4);
 
 }
+
+@keyframes velo1 {
+    from { background-position: 0 0; }
+    to { background-position: -1921px 0; } 
+    /* Note: 19 images x 700px = 13300px */
+  }
 
 body.iscrolling #spritesheet {
     animation-play-state: running;
