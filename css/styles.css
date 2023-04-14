@@ -4,6 +4,10 @@ body{
     
 }
 
+main{
+    margin: 0;
+}
+
 :root{
     --main-bg-color: brown;
     
@@ -34,3 +38,4 @@ section{
     width: auto;
     height: auto;
 }
+
