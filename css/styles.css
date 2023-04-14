@@ -17,12 +17,13 @@ header{
     width: auto;
     height: auto;
     background-image: none;
+    position: relative;
 }
 
 h1{
     position: absolute;
     top: auto;
-    align-self: center;
+    object-position: 50%;
     width: inherit;
     height: inherit;
     color:black;
