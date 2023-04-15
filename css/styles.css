@@ -95,7 +95,7 @@ body.iscrolling #spritesheet {
  background-position: 0 0;
 
  background-image: url(../img/img_elements_visuels/fleches.png);
- background-size: auto 100%;
+ background-size: 100% 100%;
 
  animation-name: fleche;
  animation-duration: 1s;
