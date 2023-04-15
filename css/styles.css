@@ -97,14 +97,14 @@ body.iscrolling #spritesheet {
  background-image: url(../img/img_elements_visuels/fleches.png);
  background-size: 100% 100%;
 
- animation-name: fleche;
+ animation-name: isfleche;
  animation-duration: 1s;
  animation-iteration-count: infinite;
  animation-timing-function: steps(3);
 
 }
 
-@keyframes fleche {
+@keyframes isfleche {
     from { background-position: 0 0; }
     to { background-position: -2100% 0; } 
     /* Note: 19 images x 700px = 13300px */
