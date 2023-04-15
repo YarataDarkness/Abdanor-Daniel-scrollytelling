@@ -90,12 +90,12 @@ body.iscrolling #spritesheet {
 }
 
 #call-to-action{
-  width: 50vw;
+width: 50vw;
  aspect-ratio: 1/1;
  background-position: 0 0;
 
  background-image: url(../img/img_elements_visuels/fleches.png);
- background-size: 100% 100%;
+ background-size: 400% 100%;
 
  animation-name: isfleche;
  animation-duration: 1s;
