@@ -95,7 +95,7 @@ width: 50vw;
  background-position: 0 0;
 
  background-image: url(../img/img_elements_visuels/fleches.png);
- background-size: 300% 100%;
+ background-size: 300% auto;
 
  animation-name: isfleche;
  animation-duration: 1s;
