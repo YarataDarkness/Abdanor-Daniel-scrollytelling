@@ -104,7 +104,7 @@ body.iscrolling #spritesheet {
 
 }
 
-@keyframes walk {
+@keyframes fleche {
     from { background-position: 0 0; }
     to { background-position: -2100% 0; } 
     /* Note: 19 images x 700px = 13300px */
