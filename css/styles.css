@@ -85,3 +85,7 @@ body.iscrolling #spritesheet {
   
   }
 
+  body.iscrolling #spritesheet2 {
+    animation-play-state: running;
+}
+
