@@ -90,9 +90,9 @@ body.iscrolling #spritesheet {
 }
 
 #call-to-action{
-    width: 50vw;
-    aspect-ratio: 1/1;
-    background-position: 0 0;
+  width: 50vw;
+ aspect-ratio: 1/1;
+ background-position: 0 0;
 
  background-image: url(../img/img_elements_visuels/fleches.png);
  background-size: auto 100%;
