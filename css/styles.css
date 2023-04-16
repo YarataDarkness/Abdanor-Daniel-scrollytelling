@@ -114,6 +114,17 @@ section{
     background-size: cover;
 }
 
+#luci1{
+    width: 100vw;
+    height: 50vw;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+    
+
+    background-image: url(../img/img_personnages/luci1.png);
+    background-size: cover;
+}
+
 #commencus{
     width: auto;
     height: 100vw;
