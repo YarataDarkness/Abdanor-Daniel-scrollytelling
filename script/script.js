@@ -12,8 +12,27 @@ iswindow.addEventListener('scroll' (),
 gsap.timeline({
     duration:0.5,
     ScrollTrigger:{
+        scrub: 1,
         markers:true,
-        start: '80% bottom'
+        start: '50% bottom'
     }
 })
+
+.fromTo(
+    document.querySelector('.god'),{
+        opacity: '0%',
+    },{
+        opacity: '100%',
+    }
+)
+
+.fromTo(
+    document.querySelector('.luci1'),{
+        opacity: '0%',
+    },{
+        opacity: '100%',
+    }
+)
+
+
 
