@@ -63,11 +63,15 @@ section{
 
 #begin{
     width: auto;
-    height: 100vw;
+    height:2000vw;
     position: relative;
 
     background-image: url(../img/img_arriere/bg-sec-2.png);
     background-size: cover;
+}
+
+p{
+    
 }
 
 #god{
@@ -116,7 +120,7 @@ section{
 /* need to find a way to make them smaller */
 #luci1{ 
     width: 100vw;
-    height: 100vw;
+    height: 50vw;
     aspect-ratio: 1/1;
     background-position: 0 0;
     position: absolute;
@@ -127,7 +131,7 @@ section{
 
 #commencus{
     width: auto;
-    height: 2000vw;
+    height: 200vw;
     position: relative;
     
 
