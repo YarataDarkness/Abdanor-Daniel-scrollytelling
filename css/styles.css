@@ -120,7 +120,7 @@ p{
 /* need to find a way to make them smaller */
 #luci1{ 
     width: 100vw;
-    height: 50vw;
+    height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
     position: absolute;
