@@ -93,6 +93,7 @@ section{
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: steps(4);
+  animation-play-state: paused;
 
 }
 
@@ -119,6 +120,8 @@ body.iscrolling #spritesheet {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: steps(4);
+    animation-play-state: paused;
+
   
   }
 
@@ -139,6 +142,7 @@ animation-name: isfleche;
 animation-duration: 1s;
 animation-iteration-count: infinite;
 animation-timing-function: steps(3);
+animation-play-state: paused;
 
  
 
