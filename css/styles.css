@@ -50,6 +50,7 @@ section{
     height: auto;
     background-size: contain;
     background-repeat: no-repeat;
+    margin: 0%;
 }
 
 #spritesheet{/* Le probleme: l'image coupe gauche . A droite, ont peut voir une autre partie du sprite  */
