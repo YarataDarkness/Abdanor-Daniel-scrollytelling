@@ -53,6 +53,33 @@ section{
     margin: 0%;
 }
 
+#begin{
+    width: auto;
+    height: auto;
+    position: relative;
+
+    background-image: url(../img/img_arriere/bg-sec-1.png);
+    background-size: cover;
+}
+
+#commencus{
+    width: auto;
+    height: auto;
+    position: relative;
+
+    background-image: url(../img/img_arriere/bg-sec-2.png);
+    background-size: cover;
+}
+
+#fall{
+    width: auto;
+    height: auto;
+    position: relative;
+
+    background-image: url(../img/img_arriere/bg-sec-3.png);
+    background-size: cover;
+}
+
 #spritesheet{/* Le probleme: l'image coupe gauche . A droite, ont peut voir une autre partie du sprite  */
   width: 50vw;
   aspect-ratio: 1/1;
