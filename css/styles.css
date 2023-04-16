@@ -32,6 +32,9 @@ h1{
     width: inherit;
     height: inherit;
     color:black;
+
+    text-align: center;
+    text-shadow: cornsilk;
 }
 
 #para-copyright{
