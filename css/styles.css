@@ -70,6 +70,16 @@ section{
     background-size: cover;
 }
 
+#god{
+    width: 50vw;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+    
+
+    background-image: url(../img/img_personnages/god1.png);
+    background-size: cover;
+}
+
 #commencus{
     width: auto;
     height: 100vw;
