@@ -9,4 +9,11 @@ iswindow.addEventListener('scroll' (),
     isbody.classList.add('is-scrolling')
 );
 
+gsap.timeline({
+    duration:0.5,
+    ScrollTrigger:{
+        markers:true,
+        start: '80% bottom'
+    }
+})
 
