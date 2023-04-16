@@ -78,7 +78,40 @@ section{
     
 
     background-image: url(../img/img_personnages/god1.png);
-    background-size: 50vw ;
+    background-size: cover;
+}
+
+#god-2{
+    width: 100vw;
+    height: 50vw;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+    
+
+    background-image: url(../img/img_personnages/god2.png);
+    background-size: cover;
+}
+
+#god-3{
+    width: 100vw;
+    height: 50vw;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+    
+
+    background-image: url(../img/img_personnages/god3.png);
+    background-size: cover;
+}
+
+#god-4{
+    width: 100vw;
+    height: 50vw;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+    
+
+    background-image: url(../img/img_personnages/god4.png);
+    background-size: cover;
 }
 
 #commencus{
