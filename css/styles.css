@@ -39,6 +39,12 @@ h1{
     
 }
 
+#synopsis{
+    color: white;
+    text-align: center;
+}   
+
+
 #para-copyright{
     font-size: 11px;
     
