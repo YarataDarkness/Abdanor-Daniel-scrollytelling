@@ -63,28 +63,28 @@ section{
 
 #begin{
     width: auto;
-    height: auto;
-    
-
-    background-image: url(../img/img_arriere/bg-sec-1.png);
-    background-size: cover;
-}
-
-#commencus{
-    width: auto;
-    height: auto;
+    height: 100vw;
     
 
     background-image: url(../img/img_arriere/bg-sec-2.png);
     background-size: cover;
 }
 
-#fall{
+#commencus{
     width: auto;
-    height: auto;
+    height: 50vw;
     
 
     background-image: url(../img/img_arriere/bg-sec-3.png);
+    background-size: cover;
+}
+
+#fall{
+    width: auto;
+    height: 50vw;
+    
+
+    background-image: url(../img/img_arriere/bg-sec-1.png);
     background-size: cover;
 }
 
