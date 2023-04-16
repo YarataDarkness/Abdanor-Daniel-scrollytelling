@@ -38,10 +38,12 @@ h1{
 }
 
 #para-copyright{
-    font-size: 10px;
-    align-self: center;
+    font-size: 11px;
+    
     color: black;
-}
+
+    text-align: center;
+}   
 
 section{
     width: auto;
