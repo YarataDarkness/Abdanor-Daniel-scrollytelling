@@ -20,8 +20,10 @@ main{
 header{
     width: auto;
     height: auto;
-    background-image: none;
     position: relative;
+
+    background-image: url(../img/img_arriere/bg-header.png);
+    background-size: cover;
 }
 
 h1{
