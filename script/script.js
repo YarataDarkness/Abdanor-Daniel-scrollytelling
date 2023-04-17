@@ -6,6 +6,8 @@ const istime = new seconds(0.1);
 
 
 iswindow.addEventListener('scroll' (), 
+    setTimeout(0,100),
+    //if setTimeout = (100), { isbody.classList.add('is-scrolling')}//
     isbody.classList.add('is-scrolling')
 );
 
