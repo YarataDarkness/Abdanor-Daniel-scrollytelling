@@ -80,7 +80,7 @@ p{
     height: 50vw;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    position: absolute;
+    
 
     background-image: url(../img/img_personnages/god1.png);
     background-size: cover;
@@ -91,7 +91,7 @@ p{
     height: 50vw;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    position: absolute;
+    
 
     background-image: url(../img/img_personnages/god2.png);
     background-size: cover;
@@ -102,7 +102,7 @@ p{
     height: 50vw;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    position: absolute;
+    
 
     background-image: url(../img/img_personnages/god3.png);
     background-size: cover;
@@ -113,9 +113,18 @@ p{
     height: 50vw;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    position: absolute;
-
+    
     background-image: url(../img/img_personnages/god4.png);
+    background-size: cover;
+}
+
+#god-hand{
+    width: 100vw;
+    height: 50vw;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+    
+    background-image: url(../img/img_personnages/godhand.png);
     background-size: cover;
 }
 
@@ -125,7 +134,7 @@ p{
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    position: absolute;
+    
 
     background-image: url(../img/img_personnages/luci1.png);
     background-size: cover;
@@ -136,7 +145,7 @@ p{
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    position: absolute;
+    
 
     background-image: url(../img/img_personnages/luci2.png);
     background-size: cover;
@@ -147,7 +156,7 @@ p{
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    position: absolute;
+    
 
     background-image: url(../img/img_personnages/luci3.png);
     background-size: cover;
@@ -158,9 +167,119 @@ p{
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    position: absolute;
+   
 
     background-image: url(../img/img_personnages/luci4.png);
+    background-size: cover;
+}
+
+#luci5{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+   
+
+    background-image: url(../img/img_personnages/luci5.png);
+    background-size: cover;
+}
+
+#luci6{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+   
+
+    background-image: url(../img/img_personnages/luci6.png);
+    background-size: cover;
+}
+
+#luci7{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+   
+
+    background-image: url(../img/img_personnages/luci7.png);
+    background-size: cover;
+}
+
+#luci8{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+   
+
+    background-image: url(../img/img_personnages/luci8.png);
+    background-size: cover;
+}
+
+#luci9{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+   
+
+    background-image: url(../img/img_personnages/luci9.png);
+    background-size: cover;
+}
+
+#luci10{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+   
+
+    background-image: url(../img/img_personnages/luci10.png);
+    background-size: cover;
+}
+
+#luci11{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+   
+
+    background-image: url(../img/img_personnages/luci11.png);
+    background-size: cover;
+}
+
+#luci12{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+   
+
+    background-image: url(../img/img_personnages/luci12.png);
+    background-size: cover;
+}
+
+#luci13{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+   
+
+    background-image: url(../img/img_personnages/luci13.png);
+    background-size: cover;
+}
+
+#dia-papa{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+   
+
+    background-image: url(../img/img_elements_visuels/papa.png);
     background-size: cover;
 }
 
@@ -258,3 +377,5 @@ margin: auto;
     to { background-position: -2100% 0; } 
     /* Note: 19 images x 700px = 13300px */
   }
+
+
