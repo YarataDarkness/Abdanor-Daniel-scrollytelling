@@ -118,6 +118,7 @@ p{
     background-image: url(../img/img_personnages/god4.png);
     background-size: cover;
 }
+
 /* need to find a way to make them smaller */
 #luci1{ 
     width: 100vw;
@@ -130,6 +131,39 @@ p{
     background-size: cover;
 }
 
+#luci2{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+    position: absolute;
+
+    background-image: url(../img/img_personnages/luci2.png);
+    background-size: cover;
+}
+
+#luci3{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+    position: absolute;
+
+    background-image: url(../img/img_personnages/luci3.png);
+    background-size: cover;
+}
+
+#luci4{ 
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-position: 0 0;
+    position: absolute;
+
+    background-image: url(../img/img_personnages/luci4.png);
+    background-size: cover;
+}
+
 #commencus{
     width: auto;
     height: 200vw;
@@ -139,6 +173,8 @@ p{
     background-image: url(../img/img_arriere/bg-sec-3.png);
     background-size: cover;
 }
+
+
 
 #fall{
     width: auto;
