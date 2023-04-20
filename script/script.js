@@ -8,7 +8,7 @@ const toscroll = isbody.classList.add('is-scrolling');
 iswindow.addEventListener('scroll' (), 
     setTimeout(toscroll,100),
     
-    //if setTimeout = (100), { isbody.classList.add('is-scrolling')}//
+    
     
 );
 
