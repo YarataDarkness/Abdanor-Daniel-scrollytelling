@@ -3,9 +3,9 @@ gsap.registerPlugin(ScrollTrigger);
 const iswindow = document.querySelector('window');
 const isbody = document.querySelector('body');
 const istime = new seconds(0.1);
-const toscroll = function(){isbody.classList.add('is-scrolling');}
+let toscroll = function(){isbody.classList.add('is-scrolling');}
 
-iswindow.addEventListener('scroll' (), 
+iswindow.addEventListener('scroll' (toscroll), 
     setTimeout(toscroll,100),
 
 );
