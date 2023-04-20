@@ -7,9 +7,7 @@ const toscroll = function(){isbody.classList.add('is-scrolling');}
 
 iswindow.addEventListener('scroll' (), 
     setTimeout(toscroll,100),
-    
-    
-    
+
 );
 
 gsap.timeline({
