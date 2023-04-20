@@ -5,10 +5,16 @@ const isbody = document.querySelector('body');
 const istime = new seconds(0.1);
 let toscroll = function(){isbody.classList.add('is-scrolling');}
 
-iswindow.addEventListener('scroll' (toscroll), 
-    setTimeout(toscroll,100),
+//iswindow.addEventListener('scroll' , function, 
+    //setTimeout(toscroll,100),
 
-);
+//);
+
+iswindow.addEventListener("scroll", function() {
+    setTimeout(toscroll,100);
+  });
+
+
 
 gsap.timeline({
     duration:0.5,
