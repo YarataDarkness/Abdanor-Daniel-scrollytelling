@@ -146,7 +146,7 @@ div{
 }
 
 #luci2{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -157,7 +157,7 @@ div{
 }
 
 #luci3{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -168,7 +168,7 @@ div{
 }
 
 #luci4{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -179,7 +179,7 @@ div{
 }
 
 #luci5{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -190,7 +190,7 @@ div{
 }
 
 #luci6{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -201,7 +201,7 @@ div{
 }
 
 #luci7{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -212,7 +212,7 @@ div{
 }
 
 #luci8{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -223,7 +223,7 @@ div{
 }
 
 #luci9{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -234,7 +234,7 @@ div{
 }
 
 #luci10{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -245,7 +245,7 @@ div{
 }
 
 #luci11{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -256,7 +256,7 @@ div{
 }
 
 #luci12{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -267,7 +267,7 @@ div{
 }
 
 #luci13{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
@@ -277,13 +277,11 @@ div{
 }
 
 #dia-papa{ 
-    width: 100vw;
+    width: 50vw;
     height: auto;
     aspect-ratio: 1/1;
     background-position: 0 0;
    
-
-    background-image: url(../img/img_elements_visuels/papa.png);
     background-size: cover;
 }
 
