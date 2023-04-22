@@ -307,7 +307,7 @@ div{
 }
 
 #spritesheet{/* Le probleme: l'image coupe gauche . A droite, ont peut voir une autre partie du sprite  */
-    width: 40vw;
+    width: 50vw;
     height: 100vh;
   aspect-ratio: 1/1;
   background-position: 0 0;
@@ -337,6 +337,7 @@ body.iscrolling #spritesheet {
 
 #spritesheet2{/* Le probleme: l'image coupe gauche . A droite, ont peut voir une autre partie du sprite  */
     width: 50vw;
+    height: 100vh;
     aspect-ratio: 1/1;
     background-position: 0 0;
     position: fixed;
