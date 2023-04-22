@@ -307,7 +307,8 @@ div{
 }
 
 #spritesheet{/* Le probleme: l'image coupe gauche . A droite, ont peut voir une autre partie du sprite  */
-  width: 50vw;
+    width: 40vw;
+    height: 100vh;
   aspect-ratio: 1/1;
   background-position: 0 0;
 
