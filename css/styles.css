@@ -4,7 +4,7 @@ body{
     background-color: brown;
     color:brown;
 
-    height: 2000vw;
+    height: 1000vw;
 }
     
 
@@ -124,8 +124,8 @@ div{
 }
 
 #god-hand{
-    width: 100vw;
-    height: 50vw;
+    width: 50vw;
+    height: 150vh;
     aspect-ratio: 1/1;
     background-position: 0 0;
     
