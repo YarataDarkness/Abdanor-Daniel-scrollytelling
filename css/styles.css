@@ -312,8 +312,7 @@ div{
   aspect-ratio: 1/1;
   background-position: 0 0;
 
-  position:absolute;
-
+  
 
   background-image: url(../img/img_personnages/bycycl.png);  
   background-size: 400% 100%;
@@ -340,7 +339,7 @@ body.iscrolling #spritesheet {
     width: 50vw;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    position:absolute;
+    
   
     background-image: url(../img/img_personnages/bycycl-2.png);  
     background-size: 400% 100%;
