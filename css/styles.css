@@ -306,7 +306,7 @@ div{
     background-size: cover;
 }
 
-#spritesheet{/* Le probleme: l'image coupe gauche . A droite, ont peut voir une autre partie du sprite  */
+#spritesheet{/* Le probleme: l'image doit etre au top est fixer; suivre le sroll.  */
     width: 50vw;
     height: 100vh;
   aspect-ratio: 1/1;
