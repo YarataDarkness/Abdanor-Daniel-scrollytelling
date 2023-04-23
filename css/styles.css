@@ -307,12 +307,14 @@ div{
 }
 
 #spritesheet{/* Le probleme: l'image doit etre au top est fixer; suivre le sroll.  */
-    width: 50vw;
-    height: 100vh;
+    width: 20vw;
+    height: 50vh;
   aspect-ratio: 1/1;
   background-position: 0 0;
-  position: fixed;
-  
+  position: absolute;
+  z-index: 20;
+  top: 0%;
+  left: 0%;
 
   background-image: url(../img/img_personnages/bycycl.png);  
   background-size: 400% 100%;
@@ -336,12 +338,15 @@ body.iscrolling #spritesheet {
 }
 
 #spritesheet2{/* Le probleme: l'image coupe gauche . A droite, ont peut voir une autre partie du sprite  */
-    width: 50vw;
-    height: 100vh;
+    width: 20vw;
+    height: 60vh;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    position: fixed;
-  
+    position: absolute;
+    z-index: 20;
+    top: 0%;
+    right: 0%;
+
     background-image: url(../img/img_personnages/bycycl-2.png);  
     background-size: 400% 100%;
   
