@@ -32,6 +32,7 @@ gsap.timeline({
 
 })
 
+//deal with the animation
 
 .fromTo(
     document.querySelector('#god'),{
