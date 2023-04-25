@@ -312,7 +312,7 @@ div{
     height: 50vh;
   aspect-ratio: 1/1;
   background-position: 0 0;
-  position: absolute;
+  position: sticky;
   z-index: 20;
   top: 0%;
   left: 0%;
@@ -343,7 +343,7 @@ div{
     height: 60vh;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    position: absolute;
+    position: sticky;
     z-index: 20;
     top: 0%;
     right: 0%;
