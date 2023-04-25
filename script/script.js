@@ -21,10 +21,11 @@ let timer = setTimeout(toscroll, 100);
 
 function toscroll(){isbody.classList.remove('is-scrolling');}
 
+//timeline starts here
 gsap.timeline({
-    duration:0.5,
+    duration: 1,
     ScrollTrigger:{
-        scrub: 1,
+        scrub: 2,
         markers:true,
         start: '50% bottom'
 
@@ -38,15 +39,15 @@ gsap.timeline({
     document.querySelector('#god'),{
         opacity: '0%',
     },{
-        opacity: '100%',
-    }
+        opacity: '100%', 
+    }, 1
 )
 
 .fromTo(
     document.querySelector('#god-2'),{
         y: 0,
     },{
-        y: 100,
+        y: 100, duration: 1,
     }
 )
 
@@ -57,7 +58,7 @@ gsap.timeline({
         y:100,
     },{
         opacity: '100%',
-        y:0,
+        y:0, duration: 1,
     }
 )
 
@@ -65,7 +66,7 @@ gsap.timeline({
     document.querySelector('#god-3'),{
         y: 0,
     },{
-        y: 100,
+        y: 100, duration: 2,
     }
 )
 
@@ -75,7 +76,7 @@ gsap.timeline({
         x:0,
     },{
         opacity: '100%',
-        x:100,
+        x:100, duration: 1,
     }
 )
 
@@ -83,7 +84,7 @@ gsap.timeline({
     document.querySelector('#god-4'),{
         y: 0,
     },{
-        y: 100,
+        y: 100, duration: 2,
     }
 )
 
@@ -93,7 +94,7 @@ gsap.timeline({
         x:0,
     },{
         opacity: '100%',
-        x:-100,
+        x:-100, duration: 1,
     }
 )
 
@@ -101,7 +102,7 @@ gsap.timeline({
     document.querySelector('#god-2'),{
         y: 0,
     },{
-        y: 100,
+        y: 100, duration: 2,
     }
 )
 
@@ -111,7 +112,7 @@ gsap.timeline({
         y:0,
     },{
         opacity: '100%',
-        y: 150,
+        y: 150, duration: 1,
     }
 )
 
@@ -119,7 +120,7 @@ gsap.timeline({
     document.querySelector('#god-3'),{
         y: 0,
     },{
-        y: 100,
+        y: 100, duration: 2,
     }
 )
 
@@ -130,7 +131,7 @@ gsap.timeline({
         x:0,
     },{
         opacity: '100%',
-        x:100,
+        x:100, duration: 1,
     }
 )
 
@@ -139,7 +140,7 @@ gsap.timeline({
     document.querySelector('#god-2'),{
         y: 0,
     },{
-        y: 100,
+        y: 100, duration: 2,
     }
 )
 
@@ -150,7 +151,7 @@ gsap.timeline({
         y: 0,
     },{
         opacity: '100%',
-        y: 100,
+        y: 100, duration: 1,
     }
 )
 
@@ -159,7 +160,7 @@ gsap.timeline({
     document.querySelector('#god-4'),{
         y: 0,
     },{
-        y: 100,
+        y: 100, duration: 2,
     }
 )
 
@@ -169,7 +170,7 @@ gsap.timeline({
         x:0,
     },{
         opacity: '100%',
-        x:-100,
+        x:-100, duration: 1,
     }
 )
 
@@ -177,7 +178,7 @@ gsap.timeline({
     document.querySelector('#god-2'),{
         y: 0,
     },{
-        y: 100,
+        y: 100, duration: 2,
     }
 )
 
@@ -187,7 +188,7 @@ gsap.timeline({
         y: 0,
     },{
         opacity: '100%',
-        y: 150,
+        y: 150, duration: 1,
     }
 )
 
@@ -197,7 +198,7 @@ gsap.timeline({
         y: 0,
     },{
         opacity: '100%',
-        y: 150,
+        y: 150, duration: 1,
     }
 )
 
@@ -205,7 +206,7 @@ gsap.timeline({
     document.querySelector('#god-hand'),{
         y: 50,
     },{
-        y: -150,
+        y: -150, duration: 1,
     }
 )
 
@@ -216,7 +217,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y: -10,
-        rotation: 180,
+        rotation: 180, duration: 1,
     }
 )
 
@@ -226,7 +227,7 @@ gsap.timeline({
         y: 0,
     },{
         opacity: '100%',
-        y: -100,
+        y: -100, duration: 1,
        
     }
 )
@@ -238,7 +239,7 @@ gsap.timeline({
         y: 0,
     },{
         
-        y: -100,
+        y: -100, duration: 1,
        
     }
 )
@@ -248,7 +249,7 @@ gsap.timeline({
         opacity: '0%',
     },{
         
-        opacity: '100%',
+        opacity: '100%', duration: 1,
        
     }
 )
@@ -259,7 +260,7 @@ gsap.timeline({
         opacity: '0%',
     },{
         
-        opacity: '100%',
+        opacity: '100%', duration: 1,
        
     }
 )
@@ -269,7 +270,7 @@ gsap.timeline({
         x:0,
     },{
         
-        x:-100,
+        x:-100, duration: 1,
        
     }
 )
@@ -283,6 +284,6 @@ gsap.timeline({
         
         rotation: 80,
         opacity: '100%',
-        y: 150,
+        y: 150, duration: 3,
     }
 )

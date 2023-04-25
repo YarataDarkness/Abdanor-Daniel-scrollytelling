@@ -139,7 +139,8 @@ div{
     height: 100vh;
     aspect-ratio: 1/1;
     background-position: 0 0;
-    
+    right: 0%;
+    left: 0%;
 
     
     background-size: cover;
@@ -307,7 +308,7 @@ div{
 }
 
 #spritesheet{/* Le probleme: l'image doit etre au top est fixer; suivre le sroll.  */
-    width: 20vw;
+    width: 15vw;
     height: 50vh;
   aspect-ratio: 1/1;
   background-position: 0 0;
