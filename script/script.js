@@ -1,22 +1,25 @@
 gsap.registerPlugin(ScrollTrigger);
 
-const iswindow = document.querySelector('window');
-const isbody = document.querySelector('body');
-const istime = new seconds(0.1);
-let toscroll = function(){isbody.classList.remove('is-scrolling');}
+
+let isbody = document.querySelector('body');
+//const istime = new seconds(0.1);
+
 
 //iswindow.addEventListener('scroll' , function, 
     //setTimeout(toscroll,100),
 
 //);
 
-iswindow.addEventListener("scroll", function() {
-    setTimeout(toscroll,1000)
-    isbody.classList.add("is-scrolling")
-    
-  });
+window.addEventListener("scroll", function() {    
+    console.log("test");
+    isbody.classList.add("is-scrolling");
+    window.clearTimeout(timer);
+    timer = setTimeout(toscroll, 100);
 
+});
+let timer = setTimeout(toscroll, 100);
 
+function toscroll(){isbody.classList.remove('is-scrolling');}
 
 gsap.timeline({
     duration:0.5,

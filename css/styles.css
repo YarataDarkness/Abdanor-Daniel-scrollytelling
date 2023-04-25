@@ -333,7 +333,7 @@ div{
     /* Note: 19 images x 700px = 13300px */
   }
 
-body.iscrolling #spritesheet {
+.is-scrolling #spritesheet {
     animation-play-state: running;
 }
 
@@ -359,7 +359,7 @@ body.iscrolling #spritesheet {
   
   }
 
-  body.iscrolling #spritesheet2 {
+.is-scrolling #spritesheet2 {
     animation-play-state: running;
 }
 
