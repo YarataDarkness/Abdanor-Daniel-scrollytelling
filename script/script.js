@@ -48,7 +48,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    }
+    },1
 )
 
 
@@ -59,7 +59,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y:0, 
-    }
+    },1
 )
 
 .fromTo(
@@ -67,7 +67,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    }
+    },1
 )
 
 .fromTo(
@@ -77,7 +77,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         x:100, 
-    }
+    },1
 )
 
 .fromTo(
@@ -85,7 +85,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    }
+    },
 )
 
 .fromTo(
@@ -95,7 +95,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         x:-100, 
-    }
+    },1
 )
 
 .fromTo(
@@ -103,7 +103,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    }
+    },1
 )
 
 .fromTo(
@@ -113,7 +113,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y: 150, 
-    }
+    },1
 )
 
 .fromTo(
@@ -121,7 +121,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    }
+    },1
 )
 
 
@@ -132,7 +132,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         x:100, 
-    }
+    },1
 )
 
 
@@ -141,7 +141,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    }
+    },1
 )
 
 
@@ -152,7 +152,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y: 100, 
-    }
+    },1
 )
 
 
@@ -161,7 +161,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    }
+    },1
 )
 
 .fromTo(
@@ -171,7 +171,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         x:-100, 
-    }
+    },1
 )
 
 .fromTo(
@@ -179,7 +179,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100,
-    }
+    },1
 )
 
 .fromTo(
@@ -189,7 +189,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y: 150, 
-    }
+    },1
 )
 
 .fromTo(
@@ -199,7 +199,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y: 150, 
-    }
+    },1
 )
 
 .fromTo(
@@ -207,7 +207,7 @@ gsap.timeline({
         y: 50,
     },{
         y: -150, 
-    }
+    },1
 )
 
 .fromTo(
@@ -218,7 +218,7 @@ gsap.timeline({
         opacity: '100%',
         y: -10,
         rotation: 180, 
-    }
+    },1
 )
 
 .fromTo(
@@ -229,7 +229,7 @@ gsap.timeline({
         opacity: '100%',
         y: -100, 
        
-    }
+    },1
 )
 
 
@@ -241,7 +241,7 @@ gsap.timeline({
         
         y: -100, 
        
-    }
+    },1
 )
 
 .fromTo(
@@ -251,7 +251,7 @@ gsap.timeline({
         
         opacity: '100%', 
        
-    }
+    },1
 )
 
 
@@ -262,7 +262,7 @@ gsap.timeline({
         
         opacity: '100%', 
        
-    }
+    },1
 )
 
 .fromTo(
@@ -272,7 +272,7 @@ gsap.timeline({
         
         x:-100, 
        
-    }
+    },1
 )
 
 .fromTo(
@@ -285,5 +285,5 @@ gsap.timeline({
         rotation: -80,
         opacity: '100%',
         y: 150, 
-    }
+    },1
 )
