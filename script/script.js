@@ -71,7 +71,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci2'),{
         opacity: '0%',
         x:0,
@@ -81,33 +81,17 @@ gsap.timeline({
     },
 )
 
-.fromTo(
-    document.querySelector('#god-4'),{
+
+
+.toFrom(
+    document.querySelector('#god-2-a'),{
         y: 0,
     },{
         y: 100, 
     },
 )
 
-.fromTo(
-    document.querySelector('#luci2'),{
-        opacity: '0%',
-        x:0,
-    },{
-        opacity: '100%',
-        x:-100, 
-    },
-)
-
-.fromTo(
-    document.querySelector('#god-2'),{
-        y: 0,
-    },{
-        y: 100, 
-    },
-)
-
-.fromTo(
+.toFrom(
     document.querySelector('#luci3'),{
         opacity: '0%',
         y:0,
@@ -117,7 +101,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#god-3'),{
         y: 0,
     },{
@@ -126,7 +110,7 @@ gsap.timeline({
 )
 
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci4'),{
         opacity: '0%',
         x:0,
@@ -137,8 +121,8 @@ gsap.timeline({
 )
 
 
-.fromTo(
-    document.querySelector('#god-2'),{
+.toFrom(
+    document.querySelector('#god-2-b'),{
         y: 0,
     },{
         y: 100, 
@@ -146,7 +130,7 @@ gsap.timeline({
 )
 
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci5'),{
         opacity: '0%',
         y: 0,
@@ -157,7 +141,7 @@ gsap.timeline({
 )
 
 
-.fromTo(
+.toFrom(
     document.querySelector('#god-4'),{
         y: 0,
     },{
@@ -165,7 +149,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci6'),{
         opacity: '0%',
         x:0,
@@ -175,7 +159,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#god-2'),{
         y: 0,
     },{
@@ -183,7 +167,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci7'),{
         opacity: '0%',
         y: 0,
@@ -193,7 +177,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci8'),{
         opacity: '0%',
         y: 0,
@@ -203,7 +187,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#god-hand'),{
         y: 50,
     },{
@@ -211,7 +195,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci9'),{
         opacity: '0%',
         y: 0,
@@ -222,7 +206,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci10'),{
         opacity: '0%',
         y: 0,
@@ -234,7 +218,7 @@ gsap.timeline({
 )
 
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci11'),{
         
         y: 0,
@@ -245,7 +229,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci12'),{
         opacity: '0%',
     },{
@@ -256,7 +240,7 @@ gsap.timeline({
 )
 
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci13'),{
         opacity: '0%',
     },{
@@ -266,7 +250,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#luci13'),{
         x:0,
     },{
@@ -276,7 +260,7 @@ gsap.timeline({
     },
 )
 
-.fromTo(
+.toFrom(
     document.querySelector('#dia-papa'),{
         rotation: 0,
         opacity: '0%',

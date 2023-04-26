@@ -70,11 +70,12 @@ section{
 
 #begin{
     width: auto;
-    height:400vw;
+    height:270vw;
     position: relative;
   
-
-    background-image: url(../img/img_arriere/bg-sec-2.png);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 49%, rgba(0,212,255,1) 100%); 
+    
     background-size: cover;
 }
 
