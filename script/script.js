@@ -277,12 +277,12 @@ gsap.timeline({
 
 .fromTo(
     document.querySelector('#dia-papa'),{
-        rotation: 50,
+        rotation: 0,
         opacity: '0%',
         y: 50,
     },{
         
-        rotation: -80,
+        rotation: 50,
         opacity: '100%',
         y: 150, 
     },"-=0.25"
