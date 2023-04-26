@@ -34,7 +34,7 @@ gsap.timeline({
 
 })
 
-//deal with the animation
+//deal with the animation --- les deux premier sont animer puis apres les autres ne veulent pas animer.
 
 .fromTo(
     document.querySelector('#god'),{
