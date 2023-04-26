@@ -29,7 +29,7 @@ gsap.timeline({
         markers:true,
         start: 'top 75%',
         end: 'bottom 25%',
-
+        trigger: '#god',
     }
 
 })
