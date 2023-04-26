@@ -47,7 +47,7 @@ gsap.timeline({
     document.querySelector('#god-2'),{
         y: 0,
     },{
-        y: 100, duration: 1,
+        y: 100, 
     }
 )
 
@@ -58,7 +58,7 @@ gsap.timeline({
         y:100,
     },{
         opacity: '100%',
-        y:0, duration: 1,
+        y:0, 
     }
 )
 
@@ -66,7 +66,7 @@ gsap.timeline({
     document.querySelector('#god-3'),{
         y: 0,
     },{
-        y: 100, duration: 2,
+        y: 100, 
     }
 )
 
@@ -76,7 +76,7 @@ gsap.timeline({
         x:0,
     },{
         opacity: '100%',
-        x:100, duration: 1,
+        x:100, 
     }
 )
 
@@ -84,7 +84,7 @@ gsap.timeline({
     document.querySelector('#god-4'),{
         y: 0,
     },{
-        y: 100, duration: 2,
+        y: 100, 
     }
 )
 
@@ -94,7 +94,7 @@ gsap.timeline({
         x:0,
     },{
         opacity: '100%',
-        x:-100, duration: 1,
+        x:-100, 
     }
 )
 
@@ -102,7 +102,7 @@ gsap.timeline({
     document.querySelector('#god-2'),{
         y: 0,
     },{
-        y: 100, duration: 2,
+        y: 100, 
     }
 )
 
@@ -112,7 +112,7 @@ gsap.timeline({
         y:0,
     },{
         opacity: '100%',
-        y: 150, duration: 1,
+        y: 150, 
     }
 )
 
@@ -120,7 +120,7 @@ gsap.timeline({
     document.querySelector('#god-3'),{
         y: 0,
     },{
-        y: 100, duration: 2,
+        y: 100, 
     }
 )
 
@@ -131,7 +131,7 @@ gsap.timeline({
         x:0,
     },{
         opacity: '100%',
-        x:100, duration: 1,
+        x:100, 
     }
 )
 
@@ -140,7 +140,7 @@ gsap.timeline({
     document.querySelector('#god-2'),{
         y: 0,
     },{
-        y: 100, duration: 2,
+        y: 100, 
     }
 )
 
@@ -151,7 +151,7 @@ gsap.timeline({
         y: 0,
     },{
         opacity: '100%',
-        y: 100, duration: 1,
+        y: 100, 
     }
 )
 
@@ -160,7 +160,7 @@ gsap.timeline({
     document.querySelector('#god-4'),{
         y: 0,
     },{
-        y: 100, duration: 2,
+        y: 100, 
     }
 )
 
@@ -170,7 +170,7 @@ gsap.timeline({
         x:0,
     },{
         opacity: '100%',
-        x:-100, duration: 1,
+        x:-100, 
     }
 )
 
@@ -178,7 +178,7 @@ gsap.timeline({
     document.querySelector('#god-2'),{
         y: 0,
     },{
-        y: 100, duration: 2,
+        y: 100,
     }
 )
 
@@ -188,7 +188,7 @@ gsap.timeline({
         y: 0,
     },{
         opacity: '100%',
-        y: 150, duration: 1,
+        y: 150, 
     }
 )
 
@@ -198,7 +198,7 @@ gsap.timeline({
         y: 0,
     },{
         opacity: '100%',
-        y: 150, duration: 1,
+        y: 150, 
     }
 )
 
@@ -206,7 +206,7 @@ gsap.timeline({
     document.querySelector('#god-hand'),{
         y: 50,
     },{
-        y: -150, duration: 1,
+        y: -150, 
     }
 )
 
@@ -217,7 +217,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y: -10,
-        rotation: 180, duration: 1,
+        rotation: 180, 
     }
 )
 
@@ -227,7 +227,7 @@ gsap.timeline({
         y: 0,
     },{
         opacity: '100%',
-        y: -100, duration: 1,
+        y: -100, 
        
     }
 )
@@ -239,7 +239,7 @@ gsap.timeline({
         y: 0,
     },{
         
-        y: -100, duration: 1,
+        y: -100, 
        
     }
 )
@@ -249,7 +249,7 @@ gsap.timeline({
         opacity: '0%',
     },{
         
-        opacity: '100%', duration: 1,
+        opacity: '100%', 
        
     }
 )
@@ -260,7 +260,7 @@ gsap.timeline({
         opacity: '0%',
     },{
         
-        opacity: '100%', duration: 1,
+        opacity: '100%', 
        
     }
 )
@@ -270,7 +270,7 @@ gsap.timeline({
         x:0,
     },{
         
-        x:-100, duration: 1,
+        x:-100, 
        
     }
 )
@@ -282,8 +282,8 @@ gsap.timeline({
         y: 50,
     },{
         
-        rotation: 80,
+        rotation: -80,
         opacity: '100%',
-        y: 150, duration: 3,
+        y: 150, 
     }
 )
