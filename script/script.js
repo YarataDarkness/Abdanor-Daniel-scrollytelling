@@ -25,9 +25,10 @@ function toscroll(){isbody.classList.remove('is-scrolling');}
 gsap.timeline({
     duration: 1,
     ScrollTrigger:{
-        scrub: 2,
+        scrub: true,
         markers:true,
-        start: '50% bottom'
+        start: 'top 75%',
+        end: 'bottom 25%',
 
     }
 
@@ -59,7 +60,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y:0, 
-    },"<"
+    },
 )
 
 .fromTo(
@@ -67,7 +68,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -77,7 +78,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         x:100, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -85,7 +86,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -95,7 +96,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         x:-100, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -103,7 +104,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -113,7 +114,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y: 150, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -121,7 +122,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    },"-=0.25"
+    },
 )
 
 
@@ -132,7 +133,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         x:100, 
-    },"-=0.25"
+    },
 )
 
 
@@ -141,7 +142,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    },"-=0.25"
+    },
 )
 
 
@@ -152,7 +153,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y: 100, 
-    },"-=0.25"
+    },
 )
 
 
@@ -161,7 +162,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -171,7 +172,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         x:-100, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -179,7 +180,7 @@ gsap.timeline({
         y: 0,
     },{
         y: 100,
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -189,7 +190,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y: 150, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -199,7 +200,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y: 150, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -207,7 +208,7 @@ gsap.timeline({
         y: 50,
     },{
         y: -150, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -218,7 +219,7 @@ gsap.timeline({
         opacity: '100%',
         y: -10,
         rotation: 180, 
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -229,7 +230,7 @@ gsap.timeline({
         opacity: '100%',
         y: -100, 
        
-    },"-=0.25"
+    },
 )
 
 
@@ -241,7 +242,7 @@ gsap.timeline({
         
         y: -100, 
        
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -251,7 +252,7 @@ gsap.timeline({
         
         opacity: '100%', 
        
-    },"-=0.25"
+    },
 )
 
 
@@ -262,7 +263,7 @@ gsap.timeline({
         
         opacity: '100%', 
        
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -272,7 +273,7 @@ gsap.timeline({
         
         x:-100, 
        
-    },"-=0.25"
+    },
 )
 
 .fromTo(
@@ -285,5 +286,5 @@ gsap.timeline({
         rotation: 50,
         opacity: '100%',
         y: 150, 
-    },"-=0.25"
+    },
 )
