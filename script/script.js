@@ -59,7 +59,7 @@ gsap.timeline({
     },{
         opacity: '100%',
         y:0, 
-    },"-=0.25"
+    },"<"
 )
 
 .fromTo(
