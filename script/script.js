@@ -101,6 +101,18 @@ gsap.timeline({
     },
 )
 
+gsap.timeline({
+    duration: 1,
+    ScrollTrigger:{
+        scrub: true,
+        markers:true,
+        start: 'top 75%',
+        end: 'bottom 25%',
+        trigger: '#god-3',
+    }
+
+})
+
 .toFrom(
     document.querySelector('#god-3'),{
         y: 0,
@@ -205,6 +217,18 @@ gsap.timeline({
         rotation: 180, 
     },
 )
+
+gsap.timeline({
+    duration: 1,
+    ScrollTrigger:{
+        scrub: true,
+        markers:true,
+        start: 'top 75%',
+        end: 'bottom 25%',
+        trigger: '#luci10',
+    }
+
+})
 
 .toFrom(
     document.querySelector('#luci10'),{
