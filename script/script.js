@@ -29,7 +29,7 @@ gsap.timeline({
         markers:true,
         start: 'top 75%',
         end: 'bottom 25%',
-        trigger: '#god',
+        trigger: '#begin',
     }
 
 })
@@ -108,7 +108,7 @@ gsap.timeline({
         markers:true,
         start: 'top 75%',
         end: 'bottom 25%',
-        trigger: '#god-3',
+        trigger: '#commencus',
     }
 
 })
@@ -225,7 +225,7 @@ gsap.timeline({
         markers:true,
         start: 'top 75%',
         end: 'bottom 25%',
-        trigger: '#luci10',
+        trigger: '#fall',
     }
 
 })
