@@ -71,7 +71,7 @@ gsap.timeline({
     },
 )
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci2'),{
         opacity: '0%',
         x:0,
@@ -83,7 +83,7 @@ gsap.timeline({
 
 
 
-.toFrom(
+.fromTo(
     document.querySelector('#god-2-a'),{
         y: 0,
     },{
@@ -91,7 +91,7 @@ gsap.timeline({
     },
 )
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci3'),{
         opacity: '0%',
         y:0,
@@ -113,7 +113,7 @@ gsap.timeline({
 
 })
 
-.toFrom(
+.fromTo(
     document.querySelector('#god-3'),{
         y: 0,
     },{
@@ -122,7 +122,7 @@ gsap.timeline({
 )
 
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci4'),{
         opacity: '0%',
         x:0,
@@ -133,7 +133,7 @@ gsap.timeline({
 )
 
 
-.toFrom(
+.fromTo(
     document.querySelector('#god-2-b'),{
         y: 0,
     },{
@@ -142,7 +142,7 @@ gsap.timeline({
 )
 
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci5'),{
         opacity: '0%',
         y: 0,
@@ -153,7 +153,7 @@ gsap.timeline({
 )
 
 
-.toFrom(
+.fromTo(
     document.querySelector('#god-4'),{
         y: 0,
     },{
@@ -161,7 +161,7 @@ gsap.timeline({
     },
 )
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci6'),{
         opacity: '0%',
         x:0,
@@ -171,7 +171,7 @@ gsap.timeline({
     },
 )
 
-.toFrom(
+.fromTo(
     document.querySelector('#god-2'),{
         y: 0,
     },{
@@ -179,7 +179,7 @@ gsap.timeline({
     },
 )
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci7'),{
         opacity: '0%',
         y: 0,
@@ -189,7 +189,7 @@ gsap.timeline({
     },
 )
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci8'),{
         opacity: '0%',
         y: 0,
@@ -199,7 +199,7 @@ gsap.timeline({
     },
 )
 
-.toFrom(
+.fromTo(
     document.querySelector('#god-hand'),{
         y: 50,
     },{
@@ -207,7 +207,7 @@ gsap.timeline({
     },
 )
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci9'),{
         opacity: '0%',
         y: 0,
@@ -230,7 +230,7 @@ gsap.timeline({
 
 })
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci10'),{
         opacity: '0%',
         y: 0,
@@ -242,7 +242,7 @@ gsap.timeline({
 )
 
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci11'),{
         
         y: 0,
@@ -253,7 +253,7 @@ gsap.timeline({
     },
 )
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci12'),{
         opacity: '0%',
     },{
@@ -264,7 +264,7 @@ gsap.timeline({
 )
 
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci13'),{
         opacity: '0%',
     },{
@@ -274,7 +274,7 @@ gsap.timeline({
     },
 )
 
-.toFrom(
+.fromTo(
     document.querySelector('#luci13'),{
         x:0,
     },{
@@ -284,7 +284,7 @@ gsap.timeline({
     },
 )
 
-.toFrom(
+.fromTo(
     document.querySelector('#dia-papa'),{
         rotation: 0,
         opacity: '0%',
