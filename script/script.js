@@ -24,11 +24,11 @@ function toscroll(){isbody.classList.remove('is-scrolling');}
 //timeline starts here
 gsap.timeline({
     duration: 1,
-    ScrollTrigger:{
+    scrollTrigger:{
         scrub: true,
         markers:true,
-        start: 'top 75%',
-        end: 'bottom 25%',
+        end: "bottom",
+
         trigger: '#begin',
     }
 
@@ -41,7 +41,7 @@ gsap.timeline({
         opacity: '0%',
     },{
         opacity: '100%', 
-    }, 1
+    }, 
 )
 
 .fromTo(
@@ -103,11 +103,10 @@ gsap.timeline({
 
 gsap.timeline({
     duration: 1,
-    ScrollTrigger:{
+    scrollTrigger:{
         scrub: true,
         markers:true,
-        start: 'top 75%',
-        end: 'bottom 25%',
+        end: "bottom",
         trigger: '#commencus',
     }
 
@@ -220,11 +219,10 @@ gsap.timeline({
 
 gsap.timeline({
     duration: 1,
-    ScrollTrigger:{
+    scrollTrigger:{
         scrub: true,
         markers:true,
-        start: 'top 75%',
-        end: 'bottom 25%',
+        end: "bottom",
         trigger: '#fall',
     }
 
@@ -236,7 +234,7 @@ gsap.timeline({
         y: 0,
     },{
         opacity: '100%',
-        y: -100, 
+        y: '-100%', 
        
     },
 )
