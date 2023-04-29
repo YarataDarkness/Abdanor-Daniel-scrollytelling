@@ -66,6 +66,8 @@ section{
     background-repeat: no-repeat;
     margin: 0%;
    
+    border-color: red;
+    border: 1px;
 }
 
 #begin{
@@ -87,6 +89,9 @@ p{
 div{
     width: 100vw;
     height: 100vh;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #god{
