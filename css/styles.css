@@ -65,9 +65,7 @@ section{
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0%;
-   
-    border-color: red;
-    border: 1px;
+  
 }
 
 #begin{
@@ -79,6 +77,9 @@ section{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 49%, rgba(0,212,255,1) 100%); 
     
     background-size: cover;
+
+    border-color: red;
+    border: 1px;
 }
 
 p{
@@ -90,8 +91,6 @@ div{
     width: 100vw;
     height: 100vh;
 
-    border-color: blue;
-    border: 1px;
 }
 
 #god{
@@ -100,9 +99,10 @@ div{
     aspect-ratio: 1/1;
     background-position: 0 0;
     
-
-    
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #god-2{
@@ -114,6 +114,9 @@ div{
 
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #god-3{
@@ -125,6 +128,9 @@ div{
 
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #god-4{
@@ -135,6 +141,9 @@ div{
     
    
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #god-hand{
@@ -145,6 +154,9 @@ div{
     
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 /* need to find a way to make them smaller */
@@ -158,6 +170,9 @@ div{
 
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci2{ 
@@ -169,6 +184,9 @@ div{
 
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci3{ 
@@ -180,6 +198,9 @@ div{
 
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci4{ 
@@ -191,6 +212,9 @@ div{
 
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci5{ 
@@ -202,6 +226,9 @@ div{
 
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci6{ 
@@ -213,6 +240,9 @@ div{
 
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci7{ 
@@ -224,6 +254,9 @@ div{
 
    
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci8{ 
@@ -235,6 +268,9 @@ div{
 
    
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci9{ 
@@ -246,6 +282,9 @@ div{
 
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci10{ 
@@ -257,6 +296,9 @@ div{
 
    
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci11{ 
@@ -268,6 +310,9 @@ div{
 
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci12{ 
@@ -279,6 +324,9 @@ div{
 
     
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #luci13{ 
@@ -289,6 +337,9 @@ div{
    
 
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #dia-papa{ 
@@ -298,6 +349,9 @@ div{
     background-position: 0 0;
    
     background-size: cover;
+
+    border-color: blue;
+    border: 1px;
 }
 
 #commencus{
@@ -308,6 +362,10 @@ div{
 
     background-image: url(../img/img_arriere/bg-sec-3.png);
     background-size: cover;
+
+    
+    border-color: red;
+    border: 1px;
 }
 
 
@@ -319,6 +377,10 @@ div{
 
     background-image: url(../img/img_arriere/bg-sec-1.png);
     background-size: cover;
+
+    
+    border-color: red;
+    border: 1px;
 }
 
 #spritesheet{/* Le probleme: l'image doit etre au top est fixer; suivre le sroll.  */
