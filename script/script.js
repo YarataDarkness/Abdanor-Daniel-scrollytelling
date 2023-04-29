@@ -25,6 +25,7 @@ function toscroll(){isbody.classList.remove('is-scrolling');}
 gsap.timeline({
     duration: 1,
     scrollTrigger:{
+        pin: true,
         scrub: true,
         markers:true,
         end: "bottom",
@@ -104,6 +105,7 @@ gsap.timeline({
 gsap.timeline({
     duration: 1,
     scrollTrigger:{
+        pin: true,
         scrub: true,
         markers:true,
         end: "bottom",
@@ -220,6 +222,7 @@ gsap.timeline({
 gsap.timeline({
     duration: 1,
     scrollTrigger:{
+        pin: true,
         scrub: true,
         markers:true,
         end: "bottom",
