@@ -361,7 +361,7 @@ gsap.to("#fall", {
     drawSVG:'0% 0%',
     duration: 2
 
-}
+},
 )
 
 
