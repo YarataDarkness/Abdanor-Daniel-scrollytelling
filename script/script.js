@@ -129,6 +129,19 @@ gsap.timeline({
 
 })
 
+
+gsap.to("#commencus", {
+    backgroundPosition: "50% 100%",
+    ease: "none",
+    scrollTrigger: {
+        trigger: "#commencus",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: true,
+        markers: true
+    }
+})
+
 .fromTo(
     document.querySelector('#god-3'),{
         y: 0,
@@ -246,6 +259,18 @@ gsap.timeline({
         pin: true,
     }
 
+})
+
+gsap.to("#fall", {
+    backgroundPosition: "50% 100%",
+    ease: "none",
+    scrollTrigger: {
+        trigger: "#fall",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: true,
+        markers: true
+    }
 })
 
 .fromTo(

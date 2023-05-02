@@ -372,6 +372,11 @@ div{
     
     border-color: red;
     border: 1px;
+
+    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 0%;
 }
 
 
@@ -387,6 +392,10 @@ div{
     
     border-color: red;
     border: 1px;
+
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 0%;
 }
 
 #spritesheet{/* Le probleme: l'image doit etre au top est fixer; suivre le sroll.  */
