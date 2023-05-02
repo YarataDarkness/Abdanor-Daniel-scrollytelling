@@ -28,6 +28,7 @@ gsap.timeline({
         scrub: true,
         markers:true,
         end: "bottom",
+        pin: true,
 
         trigger: '#begin',
     }
