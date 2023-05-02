@@ -21,6 +21,18 @@ let timer = setTimeout(toscroll, 100);
 
 function toscroll(){isbody.classList.remove('is-scrolling');}
 
+gsap.to("#begin", {
+    backgroundPosition: "50% 100%",
+    ease: "none",
+    scrollTrigger: {
+        trigger: "#god",
+        start: "top bottom",
+        end: "bottom top",
+        scrub: true,
+        markers: true
+    }
+});
+
 //timeline starts here - CHAPTER 1
 gsap.timeline({
     duration: 1,
@@ -34,6 +46,18 @@ gsap.timeline({
     }
 
 })
+
+//gsap.to("#begin", {
+   // backgroundPosition: "50% 100%",//
+   // ease: "none",//
+   // scrollTrigger: {//
+   //     trigger: "#god",//
+   //     start: "top bottom",//
+  // // //    end: "bottom top",//
+   //     scrub: true,//
+  //      markers: true//
+ //   }//
+//})//
 
 //deal with the animation --- les deux premier sont animer puis apres les autres ne veulent pas animer.:3c
 
