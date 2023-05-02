@@ -1,5 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(DrawSVGPlugin);
+gsap.registerPlugin(MotionPathPlugin);
 
 
 let isbody = document.querySelector('body');
