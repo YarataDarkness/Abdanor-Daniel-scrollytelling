@@ -21,7 +21,7 @@ let timer = setTimeout(toscroll, 100);
 
 function toscroll(){isbody.classList.remove('is-scrolling');}
 
-//timeline starts here
+//timeline starts here - CHAPTER 1
 gsap.timeline({
     duration: 1,
     scrollTrigger:{
@@ -35,7 +35,7 @@ gsap.timeline({
 
 })
 
-//deal with the animation --- les deux premier sont animer puis apres les autres ne veulent pas animer.
+//deal with the animation --- les deux premier sont animer puis apres les autres ne veulent pas animer.:3c
 
 .fromTo(
     document.querySelector('#god'),{
@@ -101,6 +101,8 @@ gsap.timeline({
         y: 150, 
     },
 )
+
+//timeline starts here - CHAPTER 2
 
 gsap.timeline({
     duration: 1,
@@ -217,6 +219,8 @@ gsap.timeline({
         rotation: 180, 
     },
 )
+
+//timeline starts here - CHAPTER 3
 
 gsap.timeline({
     duration: 1,
