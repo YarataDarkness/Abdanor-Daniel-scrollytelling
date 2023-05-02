@@ -351,3 +351,17 @@ gsap.to("#fall", {
         y: 150, 
     },
 )
+
+
+
+.fromTo(document.querySelector('.stary'),{
+ drawSVG:'0% 0%'
+},{
+    drawSVG:'0% 0%',
+    duration: 2
+
+}
+)
+
+
+//ouin  nothing works ouin (つ﹏<。)//
