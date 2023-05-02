@@ -1,4 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(DrawSVGPlugin);
 
 
 let isbody = document.querySelector('body');
@@ -47,6 +48,17 @@ gsap.timeline({
 
 })
 
+
+gsap.to(".texto-scrollio",{
+    xPercent:200,
+    ease: "none",
+    scrollTrigger: {
+      trigger: "#begin",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: true
+    }
+})
 
 //deal with the animation --- les deux premier sont animer puis apres les autres ne veulent pas animer.:3c
 

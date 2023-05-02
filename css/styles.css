@@ -48,6 +48,8 @@ div{
 #synopsis{
     color: white;
     text-align: center;
+
+
 }   
 
 
@@ -86,6 +88,24 @@ section{
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 50% 0%;
+}
+
+.texto-scrollio {
+    color: goldenrod;
+    text-align: center;
+
+  font-size: 20vmin;
+  transform: translateX(-100%);
+  
+}
+
+.texto-scrollio-2 {
+    color: lightgreen;
+    text-align: center;
+
+  font-size: 20vmin;
+  transform: translateX(-50%);
+  
 }
 
 p{
