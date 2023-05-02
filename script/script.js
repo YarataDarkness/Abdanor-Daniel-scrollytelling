@@ -25,7 +25,7 @@ gsap.to("#begin", {
     backgroundPosition: "50% 100%",
     ease: "none",
     scrollTrigger: {
-        trigger: "#god",
+        trigger: "#begin",
         start: "top bottom",
         end: "bottom top",
         scrub: true,
@@ -47,17 +47,6 @@ gsap.timeline({
 
 })
 
-//gsap.to("#begin", {
-   // backgroundPosition: "50% 100%",//
-   // ease: "none",//
-   // scrollTrigger: {//
-   //     trigger: "#god",//
-   //     start: "top bottom",//
-  // // //    end: "bottom top",//
-   //     scrub: true,//
-  //      markers: true//
- //   }//
-//})//
 
 //deal with the animation --- les deux premier sont animer puis apres les autres ne veulent pas animer.:3c
 
@@ -135,6 +124,7 @@ gsap.timeline({
         markers:true,
         end: "bottom",
         trigger: '#commencus',
+        pin: true,
     }
 
 })
@@ -253,6 +243,7 @@ gsap.timeline({
         markers:true,
         end: "bottom",
         trigger: '#fall',
+        pin: true,
     }
 
 })
