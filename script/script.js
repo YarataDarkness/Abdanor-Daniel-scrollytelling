@@ -12,6 +12,21 @@ let isbody = document.querySelector('body');
 
 //);
 
+gsap.to('.moon', {
+    transformOrigin: '50% 50%',
+    motionPath: {
+      curviness: 2,
+      path: [
+        {x: 125, y: 125}, 
+        {x: 0, y: 250}
+      ]
+    },
+    duration: 4,
+    repeat: -1,
+    yoyo: true,
+  })
+
+
 window.addEventListener("scroll", function() {    
     console.log("test");
     isbody.classList.add("is-scrolling");
