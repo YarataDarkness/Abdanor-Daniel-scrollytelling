@@ -1,3 +1,7 @@
+
+
+/* GENERAL*/
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow-x: hidden;
@@ -45,6 +49,8 @@ div{
     align-items: center;
 }
 
+/* MOTION PATH (DOESNT WORK)*/
+
 .moon{
     
     width: 20vw;
@@ -76,7 +82,7 @@ svg {
     width: 300px;
   }
 
-
+/* HEADER STUFF*/
 
 #synopsis{
     color: white;
@@ -94,6 +100,9 @@ svg {
     text-align: center;
 }   
 
+
+/* START OF STORY*/
+
 section{
     width: auto;
     height: auto;
@@ -103,8 +112,7 @@ section{
   
 }
 
-
-
+/* CHAPTER 1*/
 #begin{
     width: auto;
     height:270vw;
@@ -152,6 +160,9 @@ div{
 
 }
 
+/* ALL SPRITERS */
+
+/* GOD */
 #god{
     width: 100vw;
     height: 50vw;
@@ -219,6 +230,7 @@ div{
 }
 
 /* need to find a way to make them smaller */
+/* LUCIFER */
 #luci1{ 
     width: 40vw;
     height: 100vh;
@@ -413,6 +425,7 @@ div{
     border: 1px;
 }
 
+/* CHAPTER 2*/
 #commencus{
     width: auto;
     height:900vw;
@@ -432,8 +445,7 @@ div{
     background-position: 50% 0%;
 }
 
-
-
+/* CHAPTER 3*/
 #fall{
     width: auto;
     height: 300vw;
@@ -450,6 +462,8 @@ div{
     background-attachment: scroll;
     background-position: 50% 0%;
 }
+
+/* SPRITESHEET */
 
 #spritesheet{/* Le probleme: l'image doit etre au top est fixer; suivre le sroll.  */
     width: 15vw;
@@ -534,6 +548,10 @@ margin: auto;
     /* Note: 19 images x 700px = 13300px */
   }
 
+
+
+
+/* STAR  FOR SVG DRAW */
 
   .stary{
     z-index: 22;

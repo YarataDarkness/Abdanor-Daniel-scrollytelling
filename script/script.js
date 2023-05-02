@@ -1,17 +1,11 @@
+//REGISTER PLUGIN
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(DrawSVGPlugin);
 gsap.registerPlugin(MotionPathPlugin);
 
-
 let isbody = document.querySelector('body');
-//const istime = new seconds(0.1);
 
-
-//iswindow.addEventListener('scroll' , function, 
-    //setTimeout(toscroll,100),
-
-//);
-
+//MOTION PATH MOON
 gsap.to('.moon', {
     transformOrigin: '50% 50%',
     motionPath: {
@@ -26,7 +20,7 @@ gsap.to('.moon', {
     yoyo: true,
   })
 
-
+//SCROLL CODE FOR SPRIDESHEET 
 window.addEventListener("scroll", function() {    
     console.log("test");
     isbody.classList.add("is-scrolling");
@@ -38,6 +32,7 @@ let timer = setTimeout(toscroll, 100);
 
 function toscroll(){isbody.classList.remove('is-scrolling');}
 
+//
 gsap.to("#begin", {
     backgroundPosition: "50% 100%",
     ease: "none",
@@ -368,8 +363,7 @@ gsap.to("#fall", {
     },
 )
 
-
-
+//STAR SVG ANIMATION
 .fromTo(document.querySelector('.stary'),{
  drawSVG:'0% 0%'
 },{
