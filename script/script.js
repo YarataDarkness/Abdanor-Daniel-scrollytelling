@@ -365,9 +365,9 @@ gsap.to("#fall", {
 
 //STAR SVG ANIMATION
 .fromTo(document.querySelector('.stary'),{
- drawSVG:'0% 0%'
+ drawSVG:'0% 100%'
 },{
-    drawSVG:'0% 0%',
+    drawSVG:'0% 100%',
     duration: 2
 
 },
