@@ -51,7 +51,7 @@ header{
     height: auto;
     position: relative;
 
-    background-image: url(../img/img_arriere/bg-header-min.png);
+    background-image: url(../img/img_arriere/bg-header-min.webp);
     background-size: cover;
 }
 
@@ -455,7 +455,7 @@ div{
     position: relative;
     
 
-    background-image: url(../img/img_arriere/bg-sec-3-min.png);
+    background-image: url(../img/img_arriere/bg-sec-3-min.webp);
     background-size: cover;
 
     
@@ -474,7 +474,7 @@ div{
     height: 300vw;
     position: relative;
 
-    background-image: url(../img/img_arriere/bg-sec-1-min.png);
+    background-image: url(../img/img_arriere/bg-sec-1-min.webp);
     background-size: cover;
 
     
@@ -552,7 +552,7 @@ height: 20vw;
 aspect-ratio: 1/1;
 background-position: 50% 50%;
 
-background-image: url(../img/img_elements_visuels/fleches-min.png);
+background-image: url(../img/img_elements_visuels/fleches-min.webp);
 background-size: 300% 100%;
 
 animation-name: isfleche;
