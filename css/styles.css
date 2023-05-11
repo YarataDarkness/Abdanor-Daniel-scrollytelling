@@ -499,7 +499,7 @@ div{
   left: 0%;
   margin: 0 auto;
 
-  background-image: url(../img/img_personnages/bycycl-min.png);  
+  background-image: url(../img/img_personnages/bycycl-min.webp);  
   background-size: 400% 100%;
 
   animation-name: walk;
@@ -530,7 +530,7 @@ div{
     top: 0%;
     right: 0%;
 
-    background-image: url(../img/img_personnages/bycycl-2-min.png);  
+    background-image: url(../img/img_personnages/bycycl-2-min.webp);  
     background-size: 400% 100%;
   
     animation-name: walk;
