@@ -11,6 +11,7 @@
 ### Enlever les images non utiliser ###
 
 ### Resultat ###
+-La perfomance est meilleur au desktop qu'au mobile. Il faut convertir les images en WEBP.
 
 ## Rapport projet ScrollyTelling apres optimisation ##
 
